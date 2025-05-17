@@ -1,0 +1,76 @@
+import React from 'react';
+import {
+  Building,
+  Users,
+  Lightbulb,
+  Handshake,
+  ShieldCheck,
+} from 'lucide-react';
+
+const AboutUsPage = () => {
+  return (
+    <section className="bg-[#F9FAFB] py-16 px-4">
+      <div className="max-w-6xl mx-auto text-center">
+        <h1 className="text-4xl font-bold text-[#1E3A8A] mb-4">About EKAMP</h1>
+        <p className="text-[#374151] max-w-2xl mx-auto text-sm mb-12">
+          The Ekiti Municipality Advancement & Modernization Portal (EKAMP) is designed to connect the people of Ado-Ekiti with their government. We promote innovation, provide access to services, and enable citizens to participate in the growth of their city.
+        </p>
+
+        {/* Highlights Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          <div className="bg-white rounded-lg shadow-md p-6 border border-[#E5E7EB]">
+            <div className="bg-[#14B8A6] p-3 inline-block rounded-full text-white mb-2">
+              <Building size={28} />
+            </div>
+            <h3 className="text-md font-semibold text-[#1E3A8A] mb-2">Our Mission</h3>
+            <p className="text-[#374151] text-[12px]">
+              To modernize municipal operations and provide inclusive access to public services for every resident.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 border border-[#E5E7EB]">
+            <div className="bg-[#14B8A6] p-3 inline-block rounded-full text-white mb-2">
+              <Users size={28} />
+            </div>
+            <h3 className="text-md font-semibold text-[#1E3A8A] mb-2">Our People</h3>
+            <p className="text-[#374151] text-[12px]">
+              Citizens are the heart of Ado-Ekiti. We strive to build a responsive and transparent local government.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 border border-[#E5E7EB]">
+            <div className="bg-[#14B8A6] p-3 inline-block rounded-full text-white mb-2">
+              <Lightbulb size={28} />
+            </div>
+            <h3 className="text-md font-semibold text-[#1E3A8A] mb-2">Innovation</h3>
+            <p className="text-[#374151] text-[12px]">
+              We use technology and forward-thinking strategies to enhance governance and civic engagement.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 border border-[#E5E7EB]">
+            <div className="bg-[#14B8A6] p-3 inline-block rounded-full text-white mb-2">
+              <ShieldCheck size={28} />
+            </div>
+            <h3 className="text-md font-semibold text-[#1E3A8A] mb-2">Integrity</h3>
+            <p className="text-[#374151] text-[12px]">
+              Our operations are grounded in transparency, accountability, and ethical public service.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-md p-6 border border-[#E5E7EB]">
+            <div className="bg-[#14B8A6] p-3 inline-block rounded-full text-white mb-2">
+              <Handshake size={28} />
+            </div>
+            <h3 className="text-md font-semibold text-[#1E3A8A] mb-2">Collaboration</h3>
+            <p className="text-[#374151] text-[12px]">
+              We partner with citizens, organizations, and institutions to drive sustainable development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutUsPage;
