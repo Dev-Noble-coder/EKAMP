@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import ikogosiImg from '../../assets/img/ikogosi.jpg';
-import fjy from '../../assets/img/fjy.jpeg';
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
