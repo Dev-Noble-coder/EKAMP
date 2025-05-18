@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   Globe,
   Wrench,
   Building2,
   Users2,
 } from 'lucide-react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const services = [
   {
@@ -36,8 +38,8 @@ const services = [
 const ServicesPage = () => (
   <section className="bg-white py-16 px-4" id='services'>
     <div className="max-w-6xl mx-auto text-center">
-      <h2 className="text-3xl sm:text-4xl font-bold text-[#1E3A8A] mb-4">Empowering Citizens Through Smart Services</h2>
-      <p className="text-[#374151] mb-12 max-w-2xl mx-auto text-[12px] md:text-sm">
+      <h2 className="text-3xl sm:text-4xl font-bold text-[#1E3A8A] mb-4" data-aos="fade-right">Empowering Citizens Through Smart Services</h2>
+      <p className="text-[#374151] mb-12 max-w-2xl mx-auto text-[12px] md:text-sm" data-aos="fade-down">
         Explore a wide range of municipal services built to enhance civic life, promote development, and connect citizens to the heart of local governance.
       </p>
 
@@ -45,7 +47,7 @@ const ServicesPage = () => (
         {services.map((service, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-lg shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300"
+            className="bg-white rounded-lg shadow-md p-6 text-left hover:shadow-lg transition-shadow duration-300" data-aos="flip-left"
           >
             <div
               className="w-12 h-12 flex items-center justify-center rounded-full mb-4"

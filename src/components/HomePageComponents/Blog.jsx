@@ -1,4 +1,6 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const blogPosts = [
   {
@@ -28,7 +30,7 @@ const Blog = () => {
   return (
     <section className="bg-[#F9FAFB] py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#1E3A8A] mb-8">
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#1E3A8A] mb-8" data-aos="zoom-in-right">
           Insights & Civic Updates
         </h2>
 
@@ -37,6 +39,7 @@ const Blog = () => {
             <div
               key={idx}
               className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              data-aos="zoom-in-left"
             >
               <img
                 src={post.image}
