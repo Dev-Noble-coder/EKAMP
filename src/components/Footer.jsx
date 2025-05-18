@@ -9,6 +9,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import toast from "react-hot-toast";
 
 const Footer = () => {
   return (
@@ -28,16 +29,16 @@ const Footer = () => {
           <h4 className="text-lg font-semibold text-[#fbbf24] mb-4">Explore</h4>
           <ul className="space-y-2 text-sm text-white/80">
             <li>
-              <a href="#">About Us</a>
+              <a href="#aboutus">About Us</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#services">Services</a>
+            </li>
+            <li onClick={() => toast.success("Coming Soon!")} className="cursor-pointer">   
+              Initiatives
             </li>
             <li>
-              <a href="#">Initiatives</a>
-            </li>
-            <li>
-              <a href="#">Get Started</a>
+              <a href="/waitlist">Get Started</a>
             </li>
           </ul>
         </div>

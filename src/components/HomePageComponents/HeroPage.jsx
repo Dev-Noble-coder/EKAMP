@@ -27,7 +27,7 @@ const HeroPage = () => {
 
   return (
     <section
-  className="relative min-h-screen bg-[#F9FAFB] flex items-center justify-center text-center px-4 bg-no-repeat bg-center bg-cover bg-fixed"
+  className="relative min-h-screen bg-[#F9FAFB] flex items-center justify-center text-center px-4 bg-no-repeat bg-center   bg-cover bg-fixed lg:bg-[position:initial]"
   style={{
     backgroundImage: `url('https://misde.ekitistate.gov.ng/images/man-02.jpg')`,
   }}

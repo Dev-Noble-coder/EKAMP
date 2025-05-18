@@ -34,7 +34,7 @@ const services = [
 ];
 
 const ServicesPage = () => (
-  <section className="bg-white py-16 px-4">
+  <section className="bg-white py-16 px-4" id='services'>
     <div className="max-w-6xl mx-auto text-center">
       <h2 className="text-3xl sm:text-4xl font-bold text-[#1E3A8A] mb-4">Empowering Citizens Through Smart Services</h2>
       <p className="text-[#374151] mb-12 max-w-2xl mx-auto text-[12px] md:text-sm">
