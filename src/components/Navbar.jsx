@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ekilogo from "../assets/img/ekilogo.png";
+import {
+  AlignRight
+} from 'lucide-react';
 
 const Navbar = () => {
   return (
     <div className="fixed top-3 w-full text-sm z-50">
-      <div className="max-w-4xl bg-[#14B8A6]/45  backdrop-blur-md mx-auto flex justify-around items-center py-3 rounded-l-full rounded-r-full">
+      <div className="max-w-4xl bg-[#14B8A6]/45  backdrop-blur-md mx-5 md:mx-auto flex justify-around items-center py-3 rounded-l-full rounded-r-full ">
         <div>
-          <img src={ekilogo} alt="" className="w-[200px]"/>
+          <img src={ekilogo} alt="" className="w-[150px] md:w-[200px]"/>
         </div>
-        <div className="flex justify-center items-center gap-6 text-white" >
+        <div className="hidden md:flex justify-center items-center gap-6 text-white" >
           <p>Home</p>
           <p>About Us</p>
           <p>Services</p>
@@ -19,6 +22,9 @@ const Navbar = () => {
           <p>Join Our Waitlist</p>
           </Link>
           </div>
+        </div>
+        <div>
+            <AlignRight size={30} className="text-white md:hidden" />
         </div>
       </div>
     </div>

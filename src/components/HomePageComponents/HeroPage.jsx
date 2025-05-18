@@ -35,11 +35,11 @@ const HeroPage = () => {
   <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/35 to-black/35 z-0"></div>
   
   <div className="hero-content max-w-3xl z-10">
-    <h1 className="text-4xl md:text-6xl font-bold text-white mb-5">
+    <h1 className="text-3xl md:text-6xl font-bold text-white mb-5">
       <span ref={typedElement} />
     </h1>
     <div className="max-w-2xl">
-      <p className="text-sm text-white mb-6">
+      <p className=" text-[12px] md:text-sm text-white mb-6">
         EKAMP (Ekiti Municipality Advancement & Modernization Portal) is your gateway to a smarter, more connected Ado-Ekiti. Access government services, follow local initiatives, and contribute to the growth of your community.
       </p>
     </div>

@@ -24,7 +24,7 @@ const Faq = () => {
     };
 
     return (
-     <div className="max-w-3xl mx-auto px-4 py-10 bg-gradient-to-br from-[#fefce8] via-[#f0f9ff] to-[#ecfdf5] rounded-md shadow-md my-20">
+     <div className="max-w-3xl mx-auto px-4 py-10 bg-gradient-to-br from-[#fefce8] via-[#f0f9ff] to-[#ecfdf5] md:rounded-md shadow-md my-20">
     <h2 className="text-3xl font-bold text-center text-[#1E3A8A] mb-8">
         Frequently Asked Questions
     </h2>
@@ -40,7 +40,7 @@ const Faq = () => {
             >
                 <button
                     onClick={() => handleToggle(idx)}
-                    className="w-full flex justify-between items-center px-6 py-4 text-left text-[#1e3a8a] font-medium focus:outline-none"
+                    className="w-full flex justify-between items-center px-6 py-4 text-left text-sm md:text-md text-[#1e3a8a] font-medium focus:outline-none"
                     aria-expanded={openIndex === idx}
                 >
                     <span>{item.question}</span>
