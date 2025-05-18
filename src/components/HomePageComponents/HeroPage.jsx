@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-
+import ikogosiImg from '../../assets/img/ikogosi.jpg';
+import fjy from '../../assets/img/fjy.jpeg';
 const HeroPage = () => {
   const typedElement = useRef(null);
   const typedInstance = useRef(null);
@@ -26,13 +27,14 @@ const HeroPage = () => {
   }, []);
 
   return (
+    // `url('https://misde.ekitistate.gov.ng/images/man-02.jpg')`
     <section
-  className="relative min-h-screen bg-[#F9FAFB] flex items-center justify-center text-center px-4 bg-no-repeat bg-center   bg-cover bg-fixed lg:bg-[position:initial]"
+  className="relative min-h-screen bg-[#F9FAFB] flex items-center justify-center text-center px-4 bg-no-repeat bg-center   bg-cover bg-fixed  lg:bg-[position:initial]"
   style={{
     backgroundImage: `url('https://misde.ekitistate.gov.ng/images/man-02.jpg')`,
   }}
 >
-  <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/35 to-black/35 z-0"></div>
+  <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/45 to-black/45 z-0"></div>
   
   <div className="hero-content max-w-3xl z-10">
     <h1 className="text-3xl md:text-6xl font-bold text-white mb-5">
