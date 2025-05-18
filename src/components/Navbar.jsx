@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="max-w-4xl bg-[#14B8A6]/45 backdrop-blur-md mx-5 md:mx-auto flex justify-around items-center py-2 rounded-l-full rounded-r-full">
         {/* Logo */}
         <div>
-          <img src={ekilogo} alt="logo" className="w-[150px] md:w-[200px] " />
+          <img src={ekilogo} alt="logo" className="w-[170px] md:w-[200px] " />
         </div>
 
         {/* Desktop Navigation */}
