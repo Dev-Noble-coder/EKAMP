@@ -49,14 +49,16 @@ const HeroPage = () => {
   <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/45 to-black/45 z-0"></div>
   
   <div className="hero-content max-w-3xl z-10">
-    <h1 className="text-3xl md:text-6xl font-bold text-white mb-5"  data-aos="fade-right">
+    <h1 className="text-3xl md:text-5xl font-bold text-white mb-5"  data-aos="fade-right">
       <span ref={typedElement} />
     </h1>
-    <div className="max-w-2xl">
-      <p className=" text-[12px] md:text-sm text-white mb-6"  data-aos="fade-left">
-        EKAMP (Ekiti Municipality Advancement & Modernization Portal) is your gateway to a smarter, more connected Ado-Ekiti. Access government services, follow local initiatives, and contribute to the growth of your community.
-      </p>
-    </div>
+  <div className="max-w-2xl">
+<p className="text-[12px] md:text-sm text-white mb-6" data-aos="fade-left">
+  Ekiti Municipality Advancement & Modernization Portal (EKAMP) lets you easily apply for birth certificates, local government attestations, and other municipal documents in Ado-Ekiti—all in one place.
+</p>
+
+</div>
+
     <button className="bg-[#14B8A6] hover:bg-[#0D9488] text-white font-semibold py-3 px-8 rounded shadow-md transition duration-300 text-sm cursor-pointer"  data-aos="fade-up">
         <Link to="/waitlist"> Get Started </Link>
     </button>

@@ -25,9 +25,11 @@ const AboutUsPage = () => {
     <section className="bg-[#F9FAFB] py-16 px-4" id='aboutus'>
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-[#1E3A8A] mb-4" data-aos="fade-right">About EKAMP</h1>
+  
         <p className="text-[#374151] max-w-2xl mx-auto text-[12px] md:text-sm mb-12" data-aos="fade-up">
-          The Ekiti Municipality Advancement & Modernization Portal (EKAMP) is designed to connect the people of Ado-Ekiti with their government. We promote innovation, provide access to services, and enable citizens to participate in the growth of their city.
-        </p>
+ The Ekiti Municipality Advancement & Modernization Portal (EKAMP) is designed to connect Ado-Ekiti inidigens to their local government, simplifying access to vital municipal documents like birth certificates, attestations, and more.
+</p>
+
 
         {/* Highlights Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
